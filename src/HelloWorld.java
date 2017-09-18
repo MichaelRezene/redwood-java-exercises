@@ -2,31 +2,6 @@ public class HelloWorld {
     // psvm enter could direct you
     public static void main(String[] args){
 
-
-        int myFavoriteNumber = 4;
-        System.out.println("My favorite number is " + myFavoriteNumber + ".");
-
-        String myString = "Micky";
-        char myChar = 'G';
-        System.out.println("My favorite name is " + myString + ".");
-        System.out.println("My favorite Char is " + myChar + ".");
-
-        double doubleNumber = 3.14;
-        System.out.println("My double number is " + doubleNumber + ".");
-
-        long myNumber = 123L;
-        System.out.println(myNumber);
-
-//        int x = 5;
-//        System.out.println(x++);
-//        System.out.println(x);
-
-//        int x = 5;
-//        System.out.println(++x);
-//        System.out.println(x);
-
-
-        /* floating point number
          //sout will direct you
         // general syntax: type identifier;
         // 3 types of integer:
@@ -72,7 +47,7 @@ public class HelloWorld {
          //than the type in the left
         double aDoubleNumber = 10; // from int to double
         System.out.println(aDoubleNumber);
-*/
+
         System.out.println("Hello World!");
         System.out.println("Hello Redwood!");
 
