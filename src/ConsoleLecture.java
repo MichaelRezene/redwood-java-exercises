@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConsoleExercises {
+public class ConsoleLecture {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
