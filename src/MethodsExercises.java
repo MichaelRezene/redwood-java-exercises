@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class MethodsExercises {
     public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//            rollDice(getInteger(1, 10),scan);
         add(4, 6);
         sub(3, 8);
         mult(4);
@@ -55,5 +57,21 @@ public class MethodsExercises {
         }
         return factorNumber;
     }
+//    public static void rollDice(int sides, Scanner input){
+//        System.out.println("Type roll to start ");
+//        String userInput =  input.nextLine();
+//        if (userInput.trim().equalsIgnoreCase("roll")){
+////            int dice1 = generateRandom(1, sides);
+////            int dice2 =  generateRandom(1, sides);
+//            System.out.println("dices " +  generateRandom(1, sides) + " "
+//                    +  generateRandom(1, sides););
+//        }
+//        while (true){
+//
+//        }
+//    }
+//    public static void generateRandom(int min, int max){
+//
+//    }
 }
 
