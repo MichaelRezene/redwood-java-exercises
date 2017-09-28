@@ -2,7 +2,7 @@ public class HelloWorld {
     // psvm enter could direct you
     public static void main(String[] args){
 
-         //sout will direct you
+        //sout will direct you
         // general syntax: type identifier;
         // 3 types of integer:
         short shortNumber = 0;
@@ -43,8 +43,8 @@ public class HelloWorld {
         x %= 2; //
         System.out.println(x);
 
-         // It is only valid if the value on the right is smaller
-         //than the type in the left
+        // It is only valid if the value on the right is smaller
+        //than the type in the left
         double aDoubleNumber = 10; // from int to double
         System.out.println(aDoubleNumber);
 
