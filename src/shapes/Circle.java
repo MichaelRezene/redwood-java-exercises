@@ -5,14 +5,17 @@
     private double radius;
 
             public Circle(double aRadius) {
-               radius = aRadius;
+
+                radius = aRadius;
             }
 
             public double getArea() {
-               return this.radius * this.radius * Math.PI;
+
+                return this.radius * this.radius * Math.PI;
             }
 
             public double getCircumference() {
-               return 2 * Math.PI * this.radius;
+
+                return 2 * Math.PI * this.radius;
             }
  }
