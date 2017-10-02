@@ -46,7 +46,7 @@ public class GradesApplication {
             String userInput = input.getString("What student would you like to see more information on?");
 
             if (students.containsKey(userInput)) {
-                System.out.println("Name: " + students.get(userInput).getName() + "\nGithub Username: "
+                System.out.println("Name: " + students.get(userInput).getName() + " \n Github Username: "
                         + userInput + "\n"
                         + "Current Average: "
                         + students.get(userInput).getGradeAverage());
