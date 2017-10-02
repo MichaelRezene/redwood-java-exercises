@@ -12,6 +12,7 @@ public class Student {
         this.grades = new ArrayList<>();
     }
     public Student(){};
+
     // returns the student's name
     public String getName(){
         return this.name;
