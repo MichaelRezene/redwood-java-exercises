@@ -9,12 +9,14 @@ package util;
               scanner = new Scanner(System.in);
             }
 
-             public String getString() {
+             public String getString(String prompt) {
+                 System.out.println(prompt);
                 String userString = scanner.nextLine();
                 return userString;
             }
 
-            public boolean yesNo() {
+            public boolean yesNo(String prompt) {
+                System.out.println(prompt);
                 String userInput = this.scanner.nextLine();
                 return userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("yes");
             }
