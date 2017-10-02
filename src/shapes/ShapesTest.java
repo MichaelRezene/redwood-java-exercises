@@ -3,7 +3,7 @@ package shapes;
 public class ShapesTest {
     public static void main(String[] args) {
 
-           Rectanlge box1 = new Rectanlge(5,4);
+           Rectanlge box1= new Rectanlge(5,4);
         System.out.println("Box1 perimeter = " + box1.getPerimeter());
         System.out.println("Box1 area = " + box1.getArea());
 
